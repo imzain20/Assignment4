@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.evm2.HelloController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="277.0">
+         <HBox.margin>
+            <Insets bottom="100.0" left="165.0" right="100.0" top="100.0" />
+         </HBox.margin>
+         <children>
+            <TextField fx:id="textField" promptText="Enter CNIC">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="b" mnemonicParsing="false" onAction="#Button" text="Click to continue">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="90.0" right="20.0" />
+               </VBox.margin>
+            </Button>
+            <Label fx:id="textLabel" prefHeight="34.0" prefWidth="209.0" text="Label">
+               <VBox.margin>
+                  <Insets left="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>
